@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  justify-content: center;
+  background-color: #43aa8b;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnDIV {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}
+
+.buttons {
+  height: 19vh;
+  width: 19vh;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: black;
+  font-size: 40px;
+  color: rgb(197, 64, 64);
+  background-color: aliceblue;
+}
+
+.reset {
+  height: 65px;
+  width: 100px;
+  margin: 15px;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#newGame {
+  height: 65px;
+  width: 120px;
+  margin: 15px;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.winMessage {
+  color: rgb(216, 216, 134);
+}
+
+.hidden {
+  display: none;
+}
+
+.goodcolors {
+  color: green;
+}
